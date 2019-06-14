@@ -35,7 +35,7 @@ if save == "y":
     for url in search(dork, stop=int(numpage)):
         f.writelines(url)
         f.writelines("\n")
-    f.close
+    f.close()
     if path.exists(dorklist):
         print ("File saved successfully")
     if not path.exists(dorklist):
